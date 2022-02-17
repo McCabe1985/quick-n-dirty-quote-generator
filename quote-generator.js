@@ -11,5 +11,5 @@ const quotes = ['"Be yourself; everyone else is already taken" - Oscar Wilde',
 '“I am so clever that sometimes I don\'t understand a single word of what I am saying.” - Oscar Wilde' ];
 
 quoteButton.addEventListener("click", function(){
-    quote.innerText = quotes[Math.floor(Math.random()*6)+1];
+    quote.innerText = quotes[Math.floor(Math.random()*7)+1];
 });
